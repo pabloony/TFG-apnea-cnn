@@ -73,7 +73,7 @@ def main():
               f"de los perdidos ({100*recuperados.sum()/max(n_perdidos,1):.1f}%)")
 
     print()
-    print("[INFO] Pégame esta salida completa y la interpreto.")
+    print("--------")
 
 
 if __name__ == "__main__":
