@@ -1,0 +1,17 @@
+t020: 
+***Tukey no llega a actuar, ya que antes de que pueda hacerlo ya se ha 
+filtrado por NaNs → TST → ratio → Tukey
+***
+Solo hago con t020 porque realmente las graficas no cambiarían tanto con t050 o t080 , como mucho el ratio de positivo por sujeto
+pero no aporta info 
+[Tue Jun  9 10:40:58 AM CEST 2026] Iniciando dataset_analysis...
+[INFO] Leyendo 455 sujetos pre-normalización...
+[INFO] Leyendo 429 sujetos normalizados...
+
+[INFO] Sujetos antes  : 455
+[INFO] Sujetos después: 429
+[INFO] Descartados    : 26
+[OK] Guardada: src/graphs/results/grafica_11_ratio_por_sujeto.png
+[OK] Guardada: src/graphs/results/grafica_12_distribucion_ratio.png
+
+------------------------------------------------------------------------------------------

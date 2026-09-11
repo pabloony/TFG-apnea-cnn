@@ -1,0 +1,5 @@
+severidad,n_sujetos,n_huecos,mediana_hueco_s,pct_huecos_lt_10s,pct_huecos_lt_15s,pct_huecos_lt_20s
+Normal,28,271,152.02,0.74,1.48,3.32
+Leve,20,737,65.0,0.95,4.21,7.87
+Moderado,30,2188,40.38,2.33,7.04,14.49
+Grave,31,5481,25.0,6.37,20.58,34.99

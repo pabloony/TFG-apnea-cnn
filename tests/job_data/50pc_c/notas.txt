@@ -1,0 +1,4 @@
+No estabamos incluyendo hypopneas porque me faltaba una , en config.py, 
+he recompilado todo , me he equivocado tmb en el paso de complementation he 
+procesado un archivo main_imput_trainval.py , aunque realmente para lo de ahora
+solo queria imput_data.py, los he borrado aunque en el 550045.out sale marcado 

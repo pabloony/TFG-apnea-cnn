@@ -1,0 +1,7 @@
+-Vamos a probar con un threshld que labelea ventanas más estrictamente ,
+pasando del 0.2 -> 0.5
+
+Observaremos si hay mejoras en la predicción de la red y a su vez tambien mejoraremos
+aspectos como el batch size o el numero de epochs
+
+ESTE HA SIDO ACTUALIZADO POR 50PC_C, NO LO BORRO PERO YA NO VALE 

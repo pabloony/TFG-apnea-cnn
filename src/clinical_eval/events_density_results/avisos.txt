@@ -1,0 +1,68 @@
+[STNF] STNF00023: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00029: sin AHI en ahi_labels.csv
+[STNF] STNF00056: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00057: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00067: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00080: sin AHI en ahi_labels.csv
+[STNF] STNF00083: evento de 6574 s (candidato a exclusion)
+[STNF] STNF00095: sin AHI en ahi_labels.csv
+[STNF] STNF00104_1: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00108: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00118: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00121: sin AHI en ahi_labels.csv
+[STNF] STNF00128: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00130: sin AHI en ahi_labels.csv
+[STNF] STNF00135: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00135_1: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00151: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00167: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00168: sin AHI en ahi_labels.csv
+[STNF] STNF00171: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00176: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00198: sin AHI en ahi_labels.csv
+[STNF] STNF00237: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00239: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00240: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00241: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00244: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00254: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00256: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00264: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00269: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00300: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00304: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00309: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00309_1: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00311: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00317: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00323: sin AHI en ahi_labels.csv
+[STNF] STNF00325: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00332: sin AHI en ahi_labels.csv
+[STNF] STNF00336: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00337: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00339: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00346: sin AHI en ahi_labels.csv
+[STNF] STNF00361: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00364: sin AHI en ahi_labels.csv
+[STNF] STNF00376: sin AHI en ahi_labels.csv
+[STNF] STNF00393: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00398: sin AHI en ahi_labels.csv
+[STNF] STNF00409: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00425: sin AHI en ahi_labels.csv
+[STNF] STNF00453: sin AHI en ahi_labels.csv
+[STNF] STNF00461: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00477: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00482: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00483_1: 0 eventos anotados (candidato a exclusion)
+[STNF] STNF00486: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00488: menos de 2 huecos utiles, no entra en las figuras
+[STNF] STNF00489: 0 eventos anotados (candidato a exclusion)
+[STLK] STLK00022: 0 eventos anotados (candidato a exclusion)
+[STLK] STLK00024: 0 eventos anotados (candidato a exclusion)
+[STLK] STLK00026: menos de 2 huecos utiles, no entra en las figuras
+[STLK] STLK00049: sin AHI en ahi_labels.csv
+[STLK] STLK00055: menos de 2 huecos utiles, no entra en las figuras
+[STLK] STLK00059: menos de 2 huecos utiles, no entra en las figuras
+[STLK] STLK00095: menos de 2 huecos utiles, no entra en las figuras
+[STLK] STLK00099: 0 eventos anotados (candidato a exclusion)
+[STLK] STLK00105: menos de 2 huecos utiles, no entra en las figuras

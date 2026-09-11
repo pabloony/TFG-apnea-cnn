@@ -1,0 +1,29 @@
+Script : src/design/new_training_cnn.py
+SBATCH : tests/job_data/train_scratch_50ep/train_scratch.%j.out
+
+Qué se hizo:
+  Entrenar la arquitectura CNN de Piorecky desde cero con datos STNF.
+  Pesos iniciales aleatorios — sin usar el .h5 de Piorecky.
+  batch=2000, epochs=50, lr=1e-4, optimizer=Adam (según Piorecky).
+
+Datos:
+  X_train: (1112872, 2, 500, 1) | 335 sujetos STNF
+  X_val:   (304380,  2, 500, 1) |  84 sujetos STNF (nunca vistos)
+
+Resultados:
+  Mejor val_AUC : 0.7808  (epoch 9, guardado en best_model.h5)
+  train_AUC     : 0.8164  @ epoch 44
+  val_AUC       : 0.7739  @ epoch 44  ← overfitting a partir del epoch 9
+
+Conclusión:
+  La red aprende bien desde cero con datos STNF (0.78 vs 0.56 de Piorecky directo).
+  El overfitting aparece pronto (epoch 9) — la red memoriza train pero no mejora val.
+  Diferencia con Piorecky en sus datos (0.84) explicable por base de datos distinta.
+
+Pendiente:
+  Exp 2b — Fine-tuning desde pesos Piorecky → ¿supera el 0.78?
+
+Cuadro comparativo:
+  Exp 2a — Piorecky directo sin tocar    → val_AUC = 0.56
+  Exp 1  — Desde cero con STNF           → val_AUC = 0.78
+  Exp 2b — Fine-tuning (pendiente)       → val_AUC = ???

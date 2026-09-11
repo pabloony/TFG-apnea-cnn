@@ -1,0 +1,67 @@
+# Datos (nunca subir - viven solo en Picasso)
+data/
+test_ids_STLK.txt
+
+# Logs de Slurm (salida de ejecución, no código)
+*.err
+*.out
+
+# Lanzadores de Slurm (específicos del entorno HPC)
+tests/job_data/*.sh
+
+# Ejecuciones descartadas (configuraciones previas no vigentes)
+tests/job_data/50pc/
+tests/job_data/50pc_c/
+tests/job_data/80pc/
+tests/job_data/333/
+tests/job_data/nueva_prueba/
+tests/job_data/nueva_prueba_normalizada/
+tests/job_data/overfit/
+tests/job_data/train_new_callbacks/
+tests/job_data/train_new_callbacks+droput_mod/
+tests/job_data/train_val/
+tests/job_data/val_probs_per_subject/
+
+# Código no vigente (versiones previas y comprobaciones puntuales)
+src/preprocessing/main_normalisation.py
+src/preprocessing/main_delay.py
+src/preprocessing/check_mask_events_STNF00004.py
+src/preprocessing/check_labels_vs_mask_events.py
+src/complementation/diagnose_dataset.py
+src/complementation/main_imput_trainval.py
+src/complementation/main_imput_trainval_full.py
+src/complementation/imput_data.py
+src/design/analyze_round1_threshold.py
+src/design/boosting_round1.py
+src/clinical_eval/events_density.py
+src/clinical_eval/stage_b_validate_full.py
+
+ahi_labels.csv 
+
+# Entorno / cachés Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Checkpoints / pesos de modelos
+*.pth
+*.h5
+*.ckpt
+*.pt
+*.keras
+
+# Volcados de texto usados antes de tener Git
+codigo_actual.txt
+todo_el_codigo.txt
+todo_el_codigo2.txt
+todo_el_codigo3.txt
+estructura.txt
+ahi_labels.csv
+
+# Resultados por sujeto (contienen identificadores de paciente)
+*_por_sujeto.csv
+*_deltas_*.csv
+ignore/
+EOF

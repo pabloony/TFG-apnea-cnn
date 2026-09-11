@@ -1,0 +1,21 @@
+EXPERIMENTO 2a — EVALUACIÓN DIRECTA PESOS PIORECKY
+====================================================
+Script: src/design/eval_piorecky_direct.py
+
+Qué se hizo:
+  Cargar model_apnoe_best_final.h5 (pesos Piorecky) sin ningún training
+  y evaluar directamente sobre X_val STNF (84 sujetos, 304380 ventanas).
+
+Resultados:
+  ROC-AUC : 0.5613  ← prácticamente azar (0.50)
+  PR-AUC  : 0.5470
+  Accuracy: 0.5134 @ thr=0.5
+
+Conclusión:
+  Los pesos de Piorecky NO generalizan a datos STNF sin adaptación.
+  El modelo predice casi todo como positivo (Recall=0.92, Specificity=0.10)
+  → los umbrales internos aprendidos con datos checos no encajan con STNF.
+
+Pendiente:
+  Exp 1  — entrenar desde cero 50 epochs     → AUC ???
+  Exp 2b — fine-tuning desde pesos Piorecky  → AUC ???

@@ -1,0 +1,42 @@
+EN 333 VAMOS A PARTIR DESDE 
+1.main_delay_extra.py, que tenía los canales intercambiados
+2.main_labels.py que lo tengo que cambiar ya que todo lo anterior era canales intercambiados, threshold 0.2 para marcar ventana positiva 
+
+IMPORTANTE , voy a usar el slurm run_preprocessing.sh
+
+Todo lo de antes esta aparentemente bien, borro todos los resultados de 
+1. data/module_results/delay_data --> borrado (toca hacer la prueba ) --> actualizado , aparentemente correcto 
+2..data/module_results/segmented_data --> borrado --> actualizado , aparentemente correcto 
+3...data/module_results/normalised_data ---> borrado --->actualizado
+
+
+COMPLEMENTATION :
+Joining , hemos eliminado numerosos segmentos de spo2 que se salian fuera del riesgo establecido <50 >100
+
+
+Resultados de imput_data
+
+[INFO] DATASET FINAL
+------------------------------------------------------------
+[INFO] Sujetos usados: 417
+[INFO] Tamaño X_train: (1781178, 2, 500, 1) | dtype=float32
+[INFO] Tamaño y_train: (1781178,) | dtype=int64
+[INFO] Positivos: 890589
+[INFO] Negativos: 890589
+------------------------------------------------------------
+[OK] Dataset guardado correctamente.
+Fin.
+
+Resultados de training tras 3 epoch , 0.2 threshold, calculado con training_cnn, batch_size=64 , pequeña en comparacion a Piorecky
+28280/28280 [==============================] - 7544s 267ms/step - loss: 0.5866 - accuracy: 0.6879 - auc: 0.7557
+
+
+También probamos una version de training_cnn333, con batch sizes más grande de 2000,y casi 4 epochs:
+650/905 [====================>.........] - ETA: 22:40 - loss: 0.6367 - accuracy: 0.6501
+
+Conclusión, aun habiendo hecho todos los cambios mencionados apenas hemos obtenido mejoras,cosas a cambiar 
+-threshold de 0.2 , moverlo a algo más estricto como 0.5
+-batch size adecuado, hemos usado 64 y 2000 , 
+-darle una vuelta a la normaliación , no me fio 
+
+**Guarde algunas carpetas npy de la prueba con  0.2 en la carpeta de fscratch por si quisieramos volver a ellos en algun momento 
